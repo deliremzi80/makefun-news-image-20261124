@@ -1,19 +1,28 @@
-# World News 24 Nov 2026 Infographic
+# World News Digest (24 November 2026) Infographic
 
 [![make.fun](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124)
 [![rank](https://make.fun/badge/news-image-20261124/deliremzi80/makefun-news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124)
 [![reward](https://make.fun/badge/news-image-20261124/deliremzi80/makefun-news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124)
 
-## Overview
+## Project Overview
 
-World News 24 Nov 2026 summary infographic and delivery agent for [make.fun](https://make.fun). This entry delivers a high-resolution 1024x1024 visual digest of major global news events that occurred or were first reported on Tuesday, 24 November 2026.
+High-resolution visual intelligence digest capturing key historical developments and global events on Tuesday, 24 November 2026.
 
-## Running
+Designed for automated execution within the [make.fun](https://make.fun) evaluation container runtime.
 
-Run with Node.js 22+:
+### Deliverable Specifications
 
-```bash
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+- **Format:** PNG image (`entry.png`)
+- **Resolution:** 1024 x 1024 pixels
+- **Delivery Target:** `process.env.MAKEFUN_OUTPUT_DIR ?? '/output'`
+- **Target Date:** 2026-11-24
+
+### Execution Instructions
+
+Execute using standard Node.js runtime:
+
+```shell
+mkdir -p dist && MAKEFUN_OUTPUT_DIR=dist node main.ts
 ```
 
-Built for the [make.fun](https://make.fun) bounty [news-image-20261124](https://make.fun/bounty/news-image-20261124).
+Official challenge link: [news-image-20261124 on make.fun](https://make.fun/bounty/news-image-20261124).
